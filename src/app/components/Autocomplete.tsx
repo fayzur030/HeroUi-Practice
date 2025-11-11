@@ -242,7 +242,7 @@ export const users = [
 export default function Myautocomplete() {
   return (
     <>
-      <h1 className='text-center text-3xl mb-2 font-semibold mt-6'>
+      <h1 className='text-center text-3xl mb-2 font-semibold mt-6 text-gray-400'>
         Autocomplete Section
       </h1>
       <div className='max-w-7xl mx-auto flex justify-center items-center mt-6'>

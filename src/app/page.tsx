@@ -3,19 +3,26 @@ import Myaccordion from './components/Accordion'
 import Myalert from './components/Alert'
 import Myautocomplete from './components/Autocomplete'
 import Avatars from './components/Avatar'
+import Mybadge from './components/Badge'
 import NavBar from './components/Navbar'
+import Mybreadcrumbs from './components/Breadcrumbs'
+import Mybutton from './components/Button'
+import Mycalendar from './components/Calendar'
+import Mycard from './components/Card'
 
 export default function Home() {
   return (
-    <div className=''>
+    <div className='max-w-7xl mx-auto'>
       <NavBar />
       <Myaccordion />
       <Myautocomplete />
       <Myalert />
-      <div className="max-w-7xl mx-auto justify-center items-center">
-      <Avatars/>
-      </div>
+      <Avatars />
+      <Mybadge />
+      <Mybreadcrumbs />
+      <Mybutton />
+      <Mycalendar />
+      <Mycard />
     </div>
-
   )
 }

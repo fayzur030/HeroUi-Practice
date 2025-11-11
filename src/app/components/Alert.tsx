@@ -10,7 +10,7 @@ export default function Myalert() {
 
   return (
     <>
-      <h1 className='text-center text-3xl mb-2 font-semibold mt-20'>
+      <h1 className='text-center text-3xl mb-2 font-semibold mt-20 text-gray-400'>
         Aleart Section
       </h1>
       <div className='flex flex-col gap-4 mt-6'>
