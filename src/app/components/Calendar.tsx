@@ -10,7 +10,7 @@ export default function Mycalendar() {
 
   return (
     <div className='mt-15'>
-      <h1 className='text-center mt-8 font-semibold text-3xl text-gray-400'>
+      <h1 className='text-center mt-8 font-semibold text-4xl text-indigo-500'>
         Calendar
       </h1>
       <div className='flex flex-wrap gap-4 items-center justify-center mt-8'>

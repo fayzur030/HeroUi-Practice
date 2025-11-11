@@ -3,7 +3,7 @@ import { Avatar } from '@heroui/react'
 export default function Avatars() {
   return (
     <div>
-      <h1 className='text-center mt-8 font-semibold text-3xl text-gray-400'>
+      <h1 className='text-center mt-8 font-semibold text-4xl text-indigo-500'>
         Avatars
       </h1>
       <div className='flex gap-4 justify-center items-center mt-8'>

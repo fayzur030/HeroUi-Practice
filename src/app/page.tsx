@@ -9,6 +9,7 @@ import Mybreadcrumbs from './components/Breadcrumbs'
 import Mybutton from './components/Button'
 import Mycalendar from './components/Calendar'
 import Mycard from './components/Card'
+import Mypopover from './components/Popover'
 
 export default function Home() {
   return (
@@ -23,6 +24,8 @@ export default function Home() {
       <Mybutton />
       <Mycalendar />
       <Mycard />
+      ..
+      <Mypopover/>
     </div>
   )
 }

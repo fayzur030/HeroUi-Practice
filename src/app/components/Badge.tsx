@@ -3,7 +3,7 @@ import { Badge, Avatar } from '@heroui/react'
 export default function Mybadge() {
   return (
     <div className='mt-15'>
-      <h1 className='text-center mt-8 font-semibold text-3xl text-gray-400'>
+      <h1 className='text-center mt-8 font-semibold text-4xl text-indigo-500'>
         Badge
       </h1>
       <div className='flex gap-3 justify-center items-center mt-8'>
