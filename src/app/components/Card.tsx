@@ -53,30 +53,35 @@ export default function Mycard() {
   ]
 
   return (
-    <div className='gap-2 grid grid-cols-2 sm:grid-cols-4'>
-      {list.map((item, index) => (
-        <Card
-          key={index}
-          isPressable
-          shadow='sm'
-          onPress={() => console.log('item pressed')}
-        >
-          <CardBody className='overflow-visible p-0'>
-            <Image
-              alt={item.title}
-              className='w-full object-cover h-[140px]'
-              radius='lg'
-              shadow='sm'
-              src={item.img}
-              width='100%'
-            />
-          </CardBody>
-          <CardFooter className='text-small justify-between'>
-            <b>{item.title}</b>
-            <p className='text-default-500'>{item.price}</p>
-          </CardFooter>
-        </Card>
-      ))}
+    <div className='mt-15'>
+      <h1 className='text-center mt-8 font-semibold text-4xl text-indigo-500'>
+        Card
+      </h1>
+      <div className='gap-2 grid grid-cols-2 sm:grid-cols-4 mt-8 mb-8'>
+        {list.map((item, index) => (
+          <Card
+            key={index}
+            isPressable
+            shadow='sm'
+            onPress={() => console.log('item pressed')}
+          >
+            <CardBody className='overflow-visible p-0'>
+              <Image
+                alt={item.title}
+                className='w-full object-cover h-[140px]'
+                radius='lg'
+                shadow='sm'
+                src={item.img}
+                width='100%'
+              />
+            </CardBody>
+            <CardFooter className='text-small justify-between'>
+              <b>{item.title}</b>
+              <p className='text-default-500'>{item.price}</p>
+            </CardFooter>
+          </Card>
+        ))}
+      </div>
     </div>
   )
 }
