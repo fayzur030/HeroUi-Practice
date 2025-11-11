@@ -13,7 +13,7 @@ export default function Mycalendar() {
       <h1 className='text-center mt-8 font-semibold text-4xl text-indigo-500'>
         Calendar
       </h1>
-      <div className='flex flex-wrap gap-4 items-center justify-center mt-8'>
+      <div className='flex flex-wrap gap-4 items-center justify-center mt-10 mb-8'>
         <Calendar
           aria-label='Date (Invalid on weekends)'
           errorMessage={isInvalid ? 'We are closed on weekends' : undefined}

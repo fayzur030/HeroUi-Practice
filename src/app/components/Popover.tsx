@@ -1,5 +1,5 @@
 import {Popover, PopoverTrigger, PopoverContent, Button} from "@heroui/react";
-import { div } from "framer-motion/client";
+
 
 export default function Mypopover() {
   const content = (
@@ -14,8 +14,8 @@ export default function Mypopover() {
   const colors = ["default", "primary", "secondary", "success", "warning", "danger", "foreground"];
 
   return (
-   <div className="mt-15">
-    <h1 className='text-center mt-8 font-semibold text-4xl text-indigo-500'>
+   <div className="mt-15 mb-8">
+    <h1 className='text-center mt-8  font-semibold text-4xl text-indigo-500'>
         Popover
       </h1>
      <div className="flex flex-wrap gap-4 justify-center items-center mt-8">
