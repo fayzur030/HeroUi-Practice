@@ -10,20 +10,24 @@ import Mybutton from './components/Button'
 import Mycalendar from './components/Calendar'
 import Mycard from './components/Card'
 import Mypopover from './components/Popover'
-import Mycheckbox from './components/Checkbox'
-
-import Mychip from './components/Chip'
-import MycircularProgress from './components/CircularProgress'
-import MycheckboxGroup from './components/CheckboxGroup'
-import Mycode from './components/Code'
-import Dateipnut from './components/DateInput'
-import Mydropdown from './components/Dropdown'
-import Mydrawer from './components/Drawer'
-import MyFrom from './components/Form'
-import MyInputOtp from './components/InputOtp'
-import Mymodal from './components/Modal'
-import MynumberInput from './components/NumberInput'
-import Mypagination from './components/Pagination'
+import MyProgress from './components/Progress'
+import MyRadioGroup from './components/RadioGroup'
+import MyRangeCalender from './components/RangeCalener'
+import MyScroolShaow from './components/ScroolShadow'
+import MySelect from './components/Select'
+import MySkeleton from './components/Skeleton'
+import MySlider from './components/Slider'
+import MySnippet from './components/Snippet'
+import MySpacer from './components/Spacer'
+import MySpinner from './components/Spinner'
+import MySwitch from './components/Switch'
+import MyTable from './components/Table'
+import MyTabs from './components/Tabs'
+import MyToast from './components/Toast'
+import MyTextrea from './components/TextArea'
+import MyTime from './components/TimeInput'
+import MyTooltip from './components/Tooltip'
+import MyUser from './components/User'
 
 export default function Home() {
   return (
@@ -38,20 +42,26 @@ export default function Home() {
       <Mybutton />
       <Mycalendar />
       <Mycard />
-      <Mycheckbox />
-      <MycheckboxGroup />
-      <Mychip />
-      <MycircularProgress />
-      <Mycode />
-      <Dateipnut />
-      <Mydropdown />
-      <Mydrawer />
-      <MyFrom />
-      <MyInputOtp />
-      <Mymodal />
-      <MynumberInput />
-      <Mypagination />
+      ..
       <Mypopover />
+      <MyProgress />
+      <MyRadioGroup />
+      <MyRangeCalender />
+      <MyScroolShaow />
+      <MySelect />
+      <MySkeleton />
+      <MySlider />
+      <MySnippet />
+      <MySpacer />
+      <MySpinner />
+      <MySwitch />
+      <MyTable />
+      <MyTabs />
+      <MyToast />
+      <MyTextrea />
+      <MyTime />
+      <MyTooltip />
+      <MyUser />
     </div>
   )
 }
