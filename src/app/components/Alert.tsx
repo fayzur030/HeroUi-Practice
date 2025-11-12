@@ -13,7 +13,7 @@ export default function Myalert() {
       <h1 className='text-center mb-2 font-semibold mt-20 text-4xl text-indigo-500'>
         Aleart Section
       </h1>
-      <div className='flex flex-col gap-4 mt-6'>
+      <div className='flex items-center justify-center  gap-4 mt-6'>
         {isVisible ? (
           <Alert
             color='success'

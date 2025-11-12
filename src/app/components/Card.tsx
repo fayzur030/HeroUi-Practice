@@ -1,53 +1,54 @@
-import { Card, CardBody, CardFooter, Image } from '@heroui/react'
-import product1 from '../assets/Product 1.jpeg'
-import product2 from '../assets/Product 2.jpeg'
-import product3 from '../assets/Products 3.png'
-import product4 from '../assets/Product 4.jpeg'
-import product5 from '../assets/Product 5.webp'
-import product6 from '../assets/Product 6.webp'
-import product7 from '../assets/Product 7.jpg'
-import product8 from '../assets/Product 8.webp'
+import { Card, CardBody, CardFooter } from '@heroui/react'
+import orange from '../assets/fruit-1.jpeg'
+import tangerine from '../assets/fruit-2.jpeg'
+import raspbeery from '../assets/fruit-3.jpeg'
+import lomon from '../assets/fruit-4.jpeg'
+import avocado from '../assets/fruit-5.jpeg'
+import lemon2 from '../assets/lomon2.jpeg'
+import banana from '../assets/fruit-7.jpeg'
+import watermelon from '../assets/fruit-8.jpeg'
+import Image from 'next/image'
 
 export default function Mycard() {
   const list = [
     {
       title: 'Orange',
-      img: product1,
+      img: orange,
       price: '$5.50',
     },
     {
       title: 'Tangerine',
-      img: product2,
+      img: tangerine,
       price: '$3.00',
     },
     {
       title: 'Raspberry',
-      img: product3,
+      img: raspbeery,
       price: '$10.00',
     },
     {
       title: 'Lemon',
-      img: product4,
+      img: lomon,
       price: '$5.30',
     },
     {
       title: 'Avocado',
-      img: product5,
+      img: avocado,
       price: '$15.70',
     },
     {
       title: 'Lemon 2',
-      img: product6,
+      img: lemon2,
       price: '$8.00',
     },
     {
       title: 'Banana',
-      img: product7,
+      img: banana,
       price: '$7.50',
     },
     {
       title: 'Watermelon',
-      img: product8,
+      img: watermelon,
       price: '$12.20',
     },
   ]
@@ -66,14 +67,14 @@ export default function Mycard() {
             onPress={() => console.log('item pressed')}
           >
             <CardBody className='overflow-visible p-0'>
-              <Image
-                alt={item.title}
-                className='w-full object-cover h-[140px]'
-                radius='lg'
-                shadow='sm'
-                src={item.img}
-                width='100%'
-              />
+              <div className='relative w-full h-[148px]'>
+                <Image
+                  src={item.img}
+                  alt={item.title}
+                  fill
+                  className='object-cover rounded-lg shadow '
+                />
+              </div>
             </CardBody>
             <CardFooter className='text-small justify-between'>
               <b>{item.title}</b>
