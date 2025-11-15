@@ -43,6 +43,7 @@ import MyInputOtp from './components/InputOtp'
 import Mymodal from './components/Modal'
 import MynumberInput from './components/NumberInput'
 import Mypagination from './components/Pagination'
+import Cart from './components/Cart'
 
 // Reusable motion variant
 const fadeInUp = {
@@ -93,12 +94,14 @@ export default function App() {
     <MyTime key='39' />,
     <MyTooltip key='40' />,
     <MyUser key='41' />,
+    // <CustomerGrowth key='42' />,
   ]
 
   return (
-    <div className='max-w-7xl mx-auto'>
-      <NavBar />
-      <div className='space-y-10 mt-10'>
+    <>
+      <div className='max-w-7xl mx-auto'>
+        <NavBar />
+        {/* <div className='space-y-10 mt-10'>
         {components.map((Component, i) => (
           <motion.div
             key={i}
@@ -110,7 +113,11 @@ export default function App() {
             {Component}
           </motion.div>
         ))}
+      </div> */}
       </div>
-    </div>
+      <div className='bg-black'>
+        <Cart />
+      </div>
+    </>
   )
 }
